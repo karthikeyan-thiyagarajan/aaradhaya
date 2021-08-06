@@ -7734,13 +7734,13 @@ img{
     .footer--style-1 .site-logo{
         margin-top:-30px
     }
-    .footer--style-3 .map-container{
+   /* .footer--style-3 .map-container{
         position:absolute;
         top:0;
         right:0;
         width:42%;
         height:100%
-    }
+    }*/
     .timeline .__item{
         padding-top:80px;
         padding-left:0
@@ -8876,6 +8876,10 @@ img{
 
 .pad-let-ten {
     padding-left: 10rem;
+}
+
+.map-height {
+    height: 50rem;
 }
 
 
