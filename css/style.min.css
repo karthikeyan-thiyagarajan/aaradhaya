@@ -5369,7 +5369,7 @@ img{
     color:#fcdb5a
 }
 #footer{
-    position:relative
+    /* position:relative */
 }
 #footer .footer__item{
     width:100%;
@@ -8873,8 +8873,17 @@ img{
 }
 /*# sourceMappingURL=style.min.css.map */
 
- .center-div {
-     display: flex;
-     justify-content: center;
+
+.pad-let-ten {
+    padding-left: 10rem;
 }
- 
+
+
+@media screen and (max-width: 768px) {
+    .center {
+        text-align: center!important;
+   }
+   .pad-let-ten {
+    padding-left: 0px;
+}
+ }
